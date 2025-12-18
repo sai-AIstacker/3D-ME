@@ -679,7 +679,7 @@ export default function MannequinViewer() {
         </div>
       )}
 
-      <div className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 z-10 flex gap-2 sm:gap-4 bg-background/70 backdrop-blur-sm p-2 sm:p-3 rounded-lg shadow-lg">
+      <div className="absolute bottom-16 sm:bottom-8 left-1/2 -translate-x-1/2 z-40 flex gap-2 sm:gap-4 bg-background/70 backdrop-blur-sm p-2 sm:p-3 rounded-lg shadow-lg">
         <Button
           variant={activeModel === "male" ? "default" : "outline"}
           onClick={() => setActiveModel("male")}
